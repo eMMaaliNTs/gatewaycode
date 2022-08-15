@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* background image style */
+.header{
+    background-image: url(../imgs/background.jpg);
+    width: 100%;
+    height: 72vh;
+    background-attachment: fixed;
+}
+.marked{
+    color: #FF974F;
+    font-size: 20px; 
+}
+.contacting{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.marker-text{
+    color: white;
+}
+.marker-container{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.grey{
+    color: grey;
+}
+.ghost-container{
+    width: 100px;
+    /* border: 1px solid red; */
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid red; */
+    display: flex;
+    padding-top:15px;
+}
+.nav-image{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ghost-element{
+    width: 8%;
+    height: 100%;
+     /* border: 1px solid red;  */
+}
+.navlinks{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 20px;
+    margin-top:35px;
+    }
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 12px;
+    padding-top:14px;
+}
+
+ .aboutborder{
+ width:20%;
+ border-radius: 3px;
+ padding:16px 18px; 
+ transition:0.5s;
+ }
+ .aboutborder a:hover{
+    color:#ff7009;
+ }
+ .contus:hover{
+    border-color:#ff7009;
+
+ }
+ /* ABOUT US SECTION */
+ .abouttext{
+    /* background-color: aqua; */
+    /* text-align: center; */
+    margin-top: 150px;
+ }
+.About{
+    font-family:lora sans-serif;
+    font-size:75px;
+    color: white;
+    text-align: center;
+    padding-top:25px;
+}
+.aboutustext{
+    /* background-color: aqua; */
+}
+.h6About{
+    font-family: 'Raleway' sans-serif;
+    color:#636363;
+    font-size:18px;
+}
+.ouraimb{
+    font-size:32px;
+    font-family: Lora ,serif;
+    color:#1F2A30;
+}
+.ourline{
+    border:1px solid #FF974F;
+    border-top:collapse;
+    border-right:collapse;
+    border-left:collapse;
+    width:65px;
+}
+.texttext{
+    font-family: sans serif;
+    color:#636363;
+    font-size: 19px;
+}
+.textz{
+    /* background-color: green; */
+}
+.team{
+    width:35%;
+    height:20%;
+    margin-top:200px;
+}
+.aboutandimg{
+    display:flex;
+    /* background-color: fuchsia; */
+    justify-content:space-around ;
+    padding:50px;
+
+}
+
+
+
+/* FORM SECTION & CONTACT US SECTION */
+.waist{
+    /* background-color:blue; */
+    padding-top:25px;
+}
+
+.ending{
+    background-image: url(../imgs/office.jpg); 
+    background-attachment: fixed;
+   padding:100px;
+   display:flex ;
+   justify-content: space-around;
+   /* border:1px solid red; */
+}
+.endingcont{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    padding:50px;
+
+}
+
+.phone{
+    color:black;
+    font-size:16px;
+}
+.email{
+color:black;
+font-size:16px;
+}
+.address{
+color:black;
+font-size:16px;
+}
+.quality{
+color:#1F2A30;
+font-size:22px;
+font-family: "Lora"serif;
+}
+
+.form{
+    /* background-color: pink; */
+    justify-content: center;
+   text-align: center ;
+    width:45%;
+    height:500px;
+    padding-top: 20px;
+    border-color: #636363;
+}
+input{
+    width:500px;
+    height:50px;
+    padding:5px;
+    font-family: "raleway" sans-serif;
+    font-size:16px;
+}
+.button2{
+    justify-content: center;
+/* border :1px solid #FF974F; */
+background-color: #FF974F;
+border-radius: 5px;
+margin-top: 25px;
+width:70%;
+height:50px;
+padding:15px;
+margin-left:340px
+}
+.button2 a{
+   color:white;
+    text-decoration: none;    
+    font-size:16px;
+    font-family: "Raleway";
+    
+}
+.button2:hover{
+color:#ff7009;
+}
+textarea[type= "message"]::placeholder{
+    font-family:"raleway" sans-serif;
+    font-size:15px;
+}
+.message{
+    width:500px;
+    height:160px;
+}
+.links{
+     
+
+    }
+       
+
+
+.linksandnav{
+    margin-top:20px;
+    margin-left:65px;
+}
+.links a{
+     padding: 10px 12px;
+    color:black;
+    border:2px solid #beb9b9cc;
+    border-radius:3px;
+}
+.links a:hover{
+    color:#FF974F
+}
+.nav{
+color:black;
+background-color: #fa8430;
+display: flex;
+list-style: none;
+padding: 14px;
+}
+
+.nav a{
+
+}
+.nav li a:hover{
+color:#db6009;
+}
